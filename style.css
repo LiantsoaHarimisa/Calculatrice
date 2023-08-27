@@ -1,0 +1,80 @@
+
+.container{
+    width: 300px;
+    border-radius: 5px;
+    margin: 20vh auto 0 auto;
+    box-shadow: 2px 2px 2px 2px grey;
+}
+
+#resultat{
+    margin: 5px;
+    width: 290px;
+    border-radius: 20px;
+    background-color: rgb(221, 213, 213);
+    text-align: right;
+    height: 60px;
+    font-size: 25px;
+}
+
+.bouton{
+    display: grid;
+    margin: 5px;
+    grid-template-columns:72px 72px 72px 72px;
+}
+
+button{
+    margin: 5px;
+    width: 60px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(236, 230, 230);
+    box-shadow: 1px 1px 1px 1px grey;
+    cursor: pointer;
+    background-color: rgb(236, 230, 230);
+}
+
+#plus, #moins, #fois, #division{
+    background-color: rgb(4, 23, 59);
+    color: white;
+    border: 1px solid rgb(4, 23, 59);
+    
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+#equal{
+    background-color: aquamarine;
+    border: 1px solid aquamarine;
+    box-shadow: 1px 1px 1px 1px grey;
+}
+
+.isole{
+    width: 50%;
+    margin-right:10px;
+    float: right;
+}
+
+.isole div{
+    display: inline-block;
+    float: left;
+    margin: 2px;
+}
+
+#C{
+    background-color:  aquamarine;
+    color: rgb(4, 23, 59);
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid aquamarine;
+}
+
+#suppr{
+    background-color: red;
+    color: white;
+    width: 70px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid red;
+}
